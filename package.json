@@ -5,10 +5,12 @@
   "dependencies": {
     "@fingerprintjs/fingerprintjs": "^4.6.2",
     "@fingerprintjs/fingerprintjs-pro-react": "^2.6.3",
+    "@rajesh896/broprint.js": "^2.1.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "@thumbmarkjs/thumbmarkjs": "^0.20.2",
     "bootstrap": "^5.3.6",
     "font-awesome": "^4.7.0",
     "i": "^0.3.7",

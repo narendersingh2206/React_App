@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-
 import FingerprintJS from '@fingerprintjs/fingerprintjs';
 
+
+//FingerprintJS
 const getFingerprint = async () => {
   const fp = await FingerprintJS.load();
   const result = await fp.get();
@@ -9,31 +10,21 @@ const getFingerprint = async () => {
   return result.visitorId;
 };
 
+
+
 const deviceId=getFingerprint();
 
 
 
-
-
-
-
-
-
 class Counter extends Component {
-    state = { 
-        
+    state = {         
      } 
 
-     
-  
-
-
-    render() { 
-       
+    render() {       
 
         return (
             <div className="container">
-                <h1>Device ID is: {deviceId}</h1>                
+                <h1>FingerprintJS Device ID is: {deviceId}</h1>                
             </div>
         );
     }
